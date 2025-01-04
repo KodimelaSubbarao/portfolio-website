@@ -1,0 +1,10 @@
+package com.sa.mpf.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.sa.mpf.entity.ContactFormSubmission;
+@Repository
+public interface ContactFormSubmissionRepository extends JpaRepository<ContactFormSubmission, Integer> {
+
+}
